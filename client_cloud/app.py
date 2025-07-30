@@ -11,9 +11,9 @@ if not API_URL:
     st.error("API_URL environment variable is not set! The app cannot connect to the backend.")
     st.stop()
 
-# API_URL = os.getenv("API_URL", "http://localhost:8009")
+API_URL = os.getenv("API_URL", "http://localhost:8009")
 # TRAINER_SERVER_URL = "http://model-trainer:8510"
-# CLS_SERVER_URL = "http://model-classifier:8010"
+CLS_SERVER_URL = API_URL
 
 tab1, tab2 = st.tabs(["Upload Data","Make Prediction"])
 
