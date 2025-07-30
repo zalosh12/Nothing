@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.swp
+
+# Jupyter notebooks (optional)
+*.ipynb
+
+# Git
+.git/
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile*
+
+# Model files and data (you can keep or ignore these as needed)
+models/
+*.csv
+
+# IDE & editor config
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+
+# Test artifacts
+coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Streamlit generated
+.streamlit/config.toml
